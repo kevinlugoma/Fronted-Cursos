@@ -5,6 +5,7 @@ Axios.defaults.baseURL = 'http://localhost:5120/api';
 
 // Interceptor para solicitudes
 //pruebas de comit
+//pruebas
 Axios.interceptors.request.use(
     (config) => {
         const token_seguridad = window.localStorage.getItem('token_seguridad');
